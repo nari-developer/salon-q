@@ -3,3 +3,9 @@ git remote remove origin
 
 //
 git remote add origin https://github.com/nari-developer/salon-q.git
+
+
+//git push 
+git add .
+git commit -m "แก้ไข..."
+git push
