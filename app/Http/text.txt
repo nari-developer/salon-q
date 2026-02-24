@@ -1,0 +1,26 @@
+//ย้ายรีโมท 
+git remote remove origin
+
+//
+git remote add origin https://github.com/nari-developer/salon-q.git
+
+
+//git push 
+git add .
+git commit -m "แก้ไข..."
+git push
+
+//push ทีเดียว 2 ตัวพร้อมกัน
+git push origin main fai.lenovo
+
+
+//สลับ branch สำหรับ push fai.lenovo
+git checkout main
+git pull origin main
+git checkout -b fai.lenovo
+
+//สลับ branch สำหรับ push main
+git checkout main
+git merge fai.lenovo
+git push
+git checkout fai.lenovo
