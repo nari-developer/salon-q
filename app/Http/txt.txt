@@ -1,0 +1,5 @@
+//ย้ายรีโมท 
+git remote remove origin
+
+//
+git remote add origin https://github.com/nari-developer/salon-q.git
